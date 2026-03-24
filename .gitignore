@@ -55,4 +55,8 @@ wheels/
 dmypy.json
 
 # Course Materials
-Lecture*.pdf
+*.pdf
+*.pptx
+*.ppt
+*.docx
+~$*

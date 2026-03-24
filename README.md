@@ -44,6 +44,49 @@ Open and run the Jupyter notebook:
 jupyter notebook brandon_byrd_hw1_gradient_descent.ipynb
 ```
 
+## Homework 2: Neural Network with Backpropagation
+
+Implementation of a multi-layer neural network using TensorFlow/Keras.
+
+### Overview
+
+This assignment implements a 4-layer feedforward neural network trained via backpropagation using the Adam optimizer.
+
+### Architecture
+
+- Input layer: 2 nodes
+- Hidden layers: 3 dense layers (2 nodes each, sigmoid activation)
+- Output layer: 2 nodes (sigmoid activation)
+- Optimizer: Adam
+- Loss: Mean Squared Error (MSE)
+
+### Dataset
+
+Simple 2D dataset tiled 1000 times:
+- X = [0.05, 0.1]
+- Y = [0.01, 0.99]
+
+### Results
+
+The network converges within 10 epochs:
+- **Final loss**: ~2.1e-05
+- **Final accuracy**: 100%
+
+### Requirements
+
+- Python 3.x
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+
+### Usage
+
+Open and run the Jupyter notebook:
+
+```bash
+jupyter notebook homework_2/Brandon_Byrd.ipynb
+```
+
 ## Author
 
 Brandon Byrd
